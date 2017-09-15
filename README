@@ -1,0 +1,7 @@
+defaults: { _controller: "AppBundle:Geolocation:update" }
+25	    methods:  [POST, PUT]
+26	
+27	geolocation_delete:
+28	    path:     /{id}/delete
+29	    defaults: { _controller: "AppBundle:Geolocation:delete" }
+30	    methods:  [POST, DELETE]
